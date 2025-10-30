@@ -1,0 +1,27 @@
+on this exercise you will make a function "ft_print_struct(t_student)"
+that will print all the variables inside the struct:
+
+typedef struct s_aluno
+{
+	int		milestone;
+	int		kickoff;
+	int		idade;
+	char	*nome:
+	char	*sobrenome;
+}	t_aluno;
+
+
+you must complete the program with the following main:
+
+int	main(void)
+{
+	int		age = 67;
+	int		kickoff = 7;
+	int		milestone = 5;
+	char	*name = "charles";
+	char	*surname = "ararinha";
+
+	...
+
+	ft_print_struct();
+}

@@ -1,0 +1,16 @@
+On this exercise you MUST have a main like this:
+
+int	main(int argc, char **argv)
+{
+	t_student	a;
+
+	if (argc != 4)
+		printf("invalid input\n");
+	[...]
+	printf("Name: %s\n\n", a.name);
+	printf("Math grade: %f\n", a.math);
+	prinf("Portuguese grade: %f\n\n", a.portuguese);
+	printf("Average: %f", a.average);
+}
+
+you're only allowed to change one line, the one with [...] to a function call.

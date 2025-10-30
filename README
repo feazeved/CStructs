@@ -1,0 +1,9 @@
+The goal of this repository is to make you feel comfortable with the use of structs and libft functions now that you made them.
+
+On the exercises you're asked to do simple fundamental things regarding structs!
+To better understand when to use '.' or '->', all exercises will be programs.
+On all exercises you need to have a "main.c" (where your main is located) and a "ex*.h" where your struct need to be declared.
+Remember the norm and all the good coding practices you know.
+REMEMBER to use your functions from libft!!!!!!
+Crashes/leaks won't be tolerated, your program must be bullet-proof.
+Good luck!
