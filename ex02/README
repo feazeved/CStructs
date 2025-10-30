@@ -1,13 +1,20 @@
 You must have a file called "main.c" and a "ex*.h" where you MUST have the definition of your struct.
-On this exercise your program will receive 4 arguments and your goal is:
+On this exercise your program will receive 4 arguments:
+
+first: age
+second: pass_num
+third: name
+fourth: nationality
+
+and your goal is:
 
 1. To check all the arguments.
 
 1.1 Don't accept a number of arguments different than 4
 1.2 Student must be at least 18 yo
-1.3 No argument can be empty (age and passport_num can't be 0), handle spaces!
+1.3 No argument can be empty (age and passport_num can't be 0), treat empty args as errors!
 
-2. To fill this struct with the arguments.
+2. To fill this struct with the arguments AND all fields must be filled with malloc'd blocks.
 
 typedef struct s_student
 {
@@ -26,6 +33,8 @@ Student Felipe
 Age: 20
 Nationality: Brasil
 Passport: 214748
+
+4. Have a function to free every field.
 
 
 In case of errors, all error messages must be printed at stderr.
